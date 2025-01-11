@@ -1,1 +1,3 @@
 FIRST_MAIN
+
+second_main
