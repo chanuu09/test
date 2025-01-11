@@ -44,3 +44,30 @@ git switch main 으로 메인브랜치로
 git merge 합칠 브랜치명
 
 똑같은 파일의 똑같은 줄을 수정했을 경우 conflict 발생 <직접 수정해야댐
+
+3-way merge  메인브랜치와 서브브랜치의 commit이 여러 개 존재할 경우
+             메인 브랜치에 merge하는 경우
+
+fast-forward merge 메인브랜치의 commit이 없는 경우 서브브랜치를
+                   메인브랜치로 인식
+                   이렇게 하기 싫으면 git merge --no-ff 브랜치명
+                   
+
+브랜치 merge하더라도 남아 있음
+git branch -d 브랜치명 < 브랜치 삭제 명령어
+git branch -D 브랜치명 < merge 안 한 브랜치 삭제
+
+git rebase 가 존재
+    >> 브랜치의 뿌리가 메인의 가장 최근 commit에 연결됨.
+    >> 브랜치가 너무 많을 경우 간단하고 짧은 브랜치들 깔끔해지기 가능
+    >> -> conflict 많이 발생
+git switch 새로운브랜치
+git rebase 중심브랜치명
+git switch 중심브랜치
+git merge 새로운브랜치
+
+-----------------------
+git switch main
+git merge --squash 새브랜치 #사이드브랜치의 commit 내역이 삭제됨
+                   보기 편함
+git commit -m "메시지"
