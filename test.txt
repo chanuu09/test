@@ -16,3 +16,12 @@ git log --all --oneline commit 내역 조회
 수정정 #vscode 내 git 사용이 가능
 구체 모양 아이콘의 changes의 +버튼이 git add 
 source control의 체크 버튼이 git commit
+
+commit 전 이전 파일과 변경점을 확인하는 것이 좋대
+git diff 변경점 확인 가능 jk로 스크롤바 q로 탈출
+
+git difftool 변경점을 좀 더 쉽게 확인 가능 hjkl로 움직임 :q :qa로 탈출
+
+git difftool 커밋아이디  로 특정커밋과 비교 가능
+
+git difftool 커밋아이디1 커밋아이디2  특정 커밋끼리 비교 가능
