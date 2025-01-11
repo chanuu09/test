@@ -2,3 +2,12 @@ test comment
 
 git add test.txt
 git commit -m '메모'  #기록이 됨
+
+
+
+git add #기록할 파일을 고르고 staging area
+git commit -m "메모할 거 작성임"  #repository 
+
+git add 파일1 파일2 ..
+git status 상태 확인
+git log --all --oneline commit 내역 조회
