@@ -1,0 +1,4 @@
+test comment
+
+git add test.txt
+git commit -m '메모'  #기록이 됨
