@@ -11,3 +11,8 @@ git commit -m "메모할 거 작성임"  #repository
 git add 파일1 파일2 ..
 git status 상태 확인
 git log --all --oneline commit 내역 조회
+
+--------
+수정정 #vscode 내 git 사용이 가능
+구체 모양 아이콘의 changes의 +버튼이 git add 
+source control의 체크 버튼이 git commit
