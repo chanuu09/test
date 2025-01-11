@@ -80,3 +80,23 @@ git branch 로컬 목록 보기기
 
 ------------------------------
 나중에 필요해질 때 궁금하면 검색하는 경우가 많음
+
+git restore 파일명 #가장 최근 commit된 경우로 되돌림
+
+git restore --source 커밋아이디(영어임) 파일명 #해당commit으로 돌림
+
+git restore --staged 파일명 #staging 취소
+
+git revert 커밋아이디 #해당 commit에서 일어난 일 취소 commit publish
+
+git revert 커밋아이디1 커밋아이디2 ...
+git revert HEAD #가장 최근 commit 취소
+git revert 명령어로 merge 로 만들어진 commit도 취소 가능
+
+git reset --hard 커밋아이디 #사용하면 이후 commit 사용 X
+협업 시 문제 발생될 수 있으니 사용 조심
+
+
+git reset --hard 커밋아이디 #해당 commit으로 돌아감
+git reset --soft 커밋아이디 #해당 commit의 파일만 staging area에 남음
+git reset --mixed 커밋아이디 #해당 commit파일만 staging 되지 않은 상태
