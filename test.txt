@@ -1,5 +1,7 @@
 test comment
 
+git init 해당 폴더가 git 저장소가 됨
+
 git add test.txt
 git commit -m '메모'  #기록이 됨
 
@@ -75,3 +77,6 @@ git commit -m "메시지"
 git branch -a 전체 목록 보기
 git branch -r 리모트 목록 보기
 git branch 로컬 목록 보기기
+
+------------------------------
+나중에 필요해질 때 궁금하면 검색하는 경우가 많음
