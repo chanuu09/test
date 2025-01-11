@@ -25,3 +25,10 @@ git difftool 변경점을 좀 더 쉽게 확인 가능 hjkl로 움직임 :q :qa�
 git difftool 커밋아이디  로 특정커밋과 비교 가능
 
 git difftool 커밋아이디1 커밋아이디2  특정 커밋끼리 비교 가능
+
+--------
+git branch 브랜치명 #실험용 다른 파일이 생성된다고 생각하셈셈
+git switch 브랜치명 #해당 브랜치로 이동
+
+-------
+git switch main / master를 통해 메인 브랜치로 이동
