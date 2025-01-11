@@ -32,3 +32,15 @@ git switch 브랜치명 #해당 브랜치로 이동
 
 -------
 git switch main / master를 통해 메인 브랜치로 이동
+
+
+git log --oneline --all --graph 를 통해 그래프식으로 표현현
+
+HEAD 는 현재 위치
+
+----------------
+브랜치 합치기
+git switch main 으로 메인브랜치로
+git merge 합칠 브랜치명
+
+똑같은 파일의 똑같은 줄을 수정했을 경우 conflict 발생 <직접 수정해야댐
