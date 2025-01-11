@@ -71,3 +71,7 @@ git switch main
 git merge --squash 새브랜치 #사이드브랜치의 commit 내역이 삭제됨
                    보기 편함
 git commit -m "메시지"
+
+git branch -a 전체 목록 보기
+git branch -r 리모트 목록 보기
+git branch 로컬 목록 보기기
