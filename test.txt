@@ -122,3 +122,4 @@ git clone 저장소주소
 원격저장소에 변경이 생기면 git pull 이후 git push
 git pull 원격저장소주소 (브랜치) #원격저장소 파일 가져오기
 git pull = git fetch(신규commit 가져오기) + git merge
+
