@@ -107,6 +107,8 @@ git init repositoty 생성하는 거임임
 git branch -M main 기본 브랜치명을 main으로로
 
 git push -u 원격저장소주소 올릴로컬브랜치명(main)
+         -u(주소 기억하라는 뜻)
+         다음 번에는 git push만 해도 됨
 
 url 변수로 저장 가능
 git remote add 변수명 주소소
