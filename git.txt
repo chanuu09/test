@@ -144,3 +144,7 @@ Trunk-based 전략
 git stash  #최근 commit 이후 수정본 보관관
 git stash list
 git stash save '메모'
+git stash pop # 가장 최근 것부터 불러옴
+
+git stash drop 번호  #원하는 stash 삭제
+git stash clear #모든 stash 삭제
