@@ -125,3 +125,22 @@ git pull = git fetch(신규commit 가져오기) + git merge
 
 브랜치 이름 중복 알아서 피하기
 
+
+--------------------------------------
+GitFlow 전략
+1 main
+2 develop  # 프로젝트 사본을 통해 신기능 개발발
+3 feature  # 신기능을 만들어보고 잘되면 develop에 합치기기
+4 release  # 정식 출시 전 임시 테스트 및 등등등
+5 hotfix   # 버그 수정용
+
+Trunk-based 전략
+1 main
+2 feature 1
+3 feature 2 ...  #문제가 발생하거나 한다면 새로 만들어 수정만함
+
+-----------------------------------------
+원하는 코드만 잠깐 보관해두기
+git stash  #최근 commit 이후 수정본 보관관
+git stash list
+git stash save '메모'
