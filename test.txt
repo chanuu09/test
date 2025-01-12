@@ -112,3 +112,13 @@ git push -u 원격저장소주소 올릴로컬브랜치명(main)
 
 url 변수로 저장 가능
 git remote add 변수명 주소소
+
+----------------------------------
+원격저장소 복제
+git clone 저장소주소
+
+팀원 깃헙아이디 등록해야 git push 가능
+
+원격저장소에 변경이 생기면 git pull 이후 git push
+git pull 원격저장소주소 (브랜치) #원격저장소 파일 가져오기
+git pull = git fetch(신규commit 가져오기) + git merge
